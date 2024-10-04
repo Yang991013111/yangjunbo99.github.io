@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    src: url("./font/BingKe-Vanguard-Regular-2.ttf");
+    font-family: 'BingKe';
+}
+.con1{
+    width: 100%;
+    background: url("./images/img1.webp") no-repeat center;
+    background-size: cover;
+    padding: 6vw 2vw;
+    color: rgb(0, 0, 0);
+    font-family: 'BingKe';
+    font-size: 8vw;
+    transition: all 0.3s;
+}
+.con2{
+    width: 100%;
+    background: url("./images/img2.webp") no-repeat center;
+    background-size: cover;
+}
+.con2_con{
+    width: 80%;
+    margin: auto;
+    background: url("./images/img3.webp") no-repeat center;
+    background-size: cover;
+    padding: 2vw;
+}
+img{
+    width: 100%;
+    display: block;
+}
+.con_left{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.left_img{
+    width: 30%;
+}
+.left_text{
+    width: 68%;
+}
+.text_title{
+    font-size: 60px;
+    color: rgb(196, 173, 149);
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+}
+.icon{
+    display: block;
+    width: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.texts{
+    color: rgba(143, 143, 22, 0.982);
+    height: calc(21vw - 20px);
+    overflow-y: auto;
+    line-height: 150%;
+    font-size: 40px;
+    font-family: "Comic Sans MS";
+    margin-top: 20px;
+    transition: all 0.3s;
+}
+.texts::-webkit-scrollbar{
+    width: 2px;
+}
+.text_cons{
+    height: 0 !important;
+}
